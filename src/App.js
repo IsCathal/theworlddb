@@ -1,13 +1,10 @@
 import React from 'react';
-import CsvUploader from './components/CSVUploader';
-import DataViewer from './components/DataViewer';
-
+import Home from './Home';
 
 function App() {
   return (
-    <div>
-      <CsvUploader />
-      <DataViewer />
+    <div className="App">
+      <Home />
     </div>
   );
 }
